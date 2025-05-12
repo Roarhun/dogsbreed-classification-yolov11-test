@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['german_shepherd', 'golden_retriever']
+
+roboflow:
+  workspace: ben-u4we8
+  project: dog-breed-fnhmz
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ben-u4we8/dog-breed-fnhmz/dataset/4
